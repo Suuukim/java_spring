@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="day1.review.BuyController" id="controller">
+		<constructor-arg ref="service"/>
+	</bean>
+	
+	<bean class="day1.review.BuyService" id="service">
+		<constructor-arg ref="dao"/>
+	</bean>
+	
+	<bean class="day1.review.BuyDao" id="dao">
+		<constructor-arg value="마이바티스"/>
+	</bean>
+</beans>
