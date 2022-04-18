@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.mycompany.idev.dto.Comments;
 import com.mycompany.idev.dto.Freeboard;
@@ -57,9 +58,11 @@ public class FreeboardController {
 		return "community/insert";
 	}
 	
-	@PostMapping("/insert")
-	public String save(Freeboard dto){
+	@PostMapping("/insert")		//글쓰기 처리 -> 완료 alert
+	public String save(Freeboard dto,RedirectAttributes rda){
 		mapper.insert(dto);
+		rda.addFlashAttribute("message", "글 쓰기가 완료되었습니다.");
+		// -> list.jsp 로 바로 전달 됩니다. 특징 : url에 표시되지 않습니다.(model은 url에 보입니다.)
 		return "redirect:list";   //1페이지로 이동
 	}
 	
@@ -78,21 +81,35 @@ public class FreeboardController {
 		return "community/detail";
 	}
 	
-	@PostMapping("update")
-	public String update(Freeboard vo, int pageNo,Model model) {
-		
+	@PostMapping("update")		//글 수정 -> 완료 alert
+	public String update(Freeboard vo, int pageNo,
+			RedirectAttributes rda) {
+		logger.info("vo : {}", vo);
 		mapper.update(vo);
 		
-		model.addAttribute("idx", vo.getIdx());
-		model.addAttribute("pageNo", pageNo);
-		return "redirect:detail";
+//		model.addAttribute("idx", vo.getIdx());
+//		model.addAttribute("pageNo", pageNo);
+		rda.addAttribute("idx", vo.getIdx());
+		rda.addAttribute("pageNo", pageNo);
+//		model.addAttribute("message", "글 수정 완료되었습니다.");
+//		--> 대신에 사용하는 RedirectAttributes addFlashAttribute() 메소드 값을 저장
+		rda.addFlashAttribute("message", "글 수정 완료되었습니다.");
+			//	ㄴ url에 보이지않음.
+		return "redirect:detail";	// -> redirect url의 view(detail.jsp) 까지 바로 전달
+		//중요 : RedirectAttributes는 Model 과는 충돌됩니다.
+		//		@PostMappgin 이고 redirect에서만 사용합니다.
+		
 	}
 	
-	@GetMapping("delete")
-	public String deleteFreeboard(int idx, int pageNo,Model model) {
+
+//	@GetMapping("delete")		//글 삭제 -> 완료 alert
+	@PostMapping("delete")		//글 삭제 -> 완료 alert
+	public String deleteFreeboard(int idx, int pageNo,RedirectAttributes rda) {
 		
 		mapper.delete(idx);
-		model.addAttribute("pageNo", pageNo);
+//		model.addAttribute("pageNo", pageNo);
+		rda.addAttribute("pageNo", pageNo);
+		rda.addFlashAttribute("message", "글이 삭제 되었습니다.");
 		return "redirect:list";
 	}
 	

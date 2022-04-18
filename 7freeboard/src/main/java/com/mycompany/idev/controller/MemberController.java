@@ -22,12 +22,12 @@ import com.mycompany.idev.dto.Member;
 
 @Controller
 @RequestMapping(value = "/member")
-@SessionAttributes({"user"})	//배열로 애트리뷰트이름을 나열할 수 있습니다.
+//@SessionAttributes({"member"})  //배열로 애트리뷰트이름을 나열할 수 있습니다.
 public class MemberController {
 	private static final Logger logger 
 	= LoggerFactory.getLogger(MemberController.class);
 	
-	@Autowired		//생성자,setter,필드 필요한 의존 객체의 "타입"에 해당하는 빈을 찾아 주입한다.
+	@Autowired
 	MemberMapper mapper;		//dao 역할
 	
 	@GetMapping("/list.do")
@@ -53,7 +53,7 @@ public class MemberController {
 	}  //회원가입 
 	
 	@GetMapping("/update.do")
-	public String update(@SessionAttribute("user") Member member) {
+	public String update(@SessionAttribute("member") Member member) {
 		//model 객체 저장소에 저장된 것 중 세션애트리뷰트 "member" 데이터 가져오기
 		return "member/MemberUpdate";
 	}
