@@ -21,7 +21,7 @@ import com.mycompany.idev.mapper.MemberMapper;
 import com.mycompany.idev.dto.Member;
 
 @Controller
-@RequestMapping(value = "member/")
+@RequestMapping(value = "/member")
 @SessionAttributes({"member","url","message"})
 public class MemberController {
 	private static final Logger logger 

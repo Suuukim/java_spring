@@ -118,14 +118,14 @@ function deleteOk(){
 			 			<span class="name">${cmt.name }(${cmt.ip })</span>
 			 			<span class="now">
 			 			<%-- <fmt:parseDate pattern="yyyy-MM-dd'T'HH:mm" value="${cmt.wdate }" 
-			 						var="wdate"/> <%-- 날짜가 LocalDateTime 일때 --%>
-			 			${wdate } --%>
+			 						var="wdate"/> ${wdate} <%-- 날짜가 LocalDateTime 일때 --%>
+			 			
 			 			<fmt:formatDate 
 			 				pattern="yyyy-MM-dd a hh:mm" value="${cmt.wdate }" />
 			 			</span>
 			 			<span style="float: right;">
 			 			<!-- comment?idx=${cmt.idx }&pageNo=${page}&mref=${bean.idx} -->
-			 			<a href="javascript:delete_cmt('${cmt.idx }')">
+			 			<a href="javascript:delete_cmt('${cmt.idx}')">
 			 			<img alt="삭제" src="${image }/delete.png" style="width:20px;"></a>
 			 			</span>
 		 			</div>
@@ -139,7 +139,7 @@ function deleteOk(){
  </table>
 	 	<script type="text/javascript">
 			function delete_cmt(idx){
-				if(confirm(idx + '번 선택한 댓글 삭제하시겠습니까') == true){
+				if(confirm(idx +'번 선택한 댓글 삭제하시겠습니까') == true){
 					location.href=`comment?idx=`+idx+`&pageNo=${page}&mref=${bean.idx}`;
 				}
 			}
@@ -147,7 +147,3 @@ function deleteOk(){
  </form>
 </body>
 </html>
-
-
-
-

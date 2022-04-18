@@ -79,13 +79,12 @@ public class FreeboardController {
 	}
 	
 	@PostMapping("update")
-	public String update(Freeboard vo,int pageNo,Model model) {
+	public String update(Freeboard vo, int pageNo,Model model) {
 		
 		mapper.update(vo);
 		
 		model.addAttribute("idx", vo.getIdx());
-		model.addAttribute("pageNo",pageNo);
-		
+		model.addAttribute("pageNo", pageNo);
 		return "redirect:detail";
 	}
 	
@@ -93,11 +92,12 @@ public class FreeboardController {
 	public String deleteFreeboard(int idx, int pageNo,Model model) {
 		
 		mapper.delete(idx);
-		model.addAttribute("pageNo",pageNo);
+		model.addAttribute("pageNo", pageNo);
 		return "redirect:list";
 	}
 	
-	//여기서부터는 댓글 처리
+	
+	// 여기서부터는 댓글 처리
 	
 	@Transactional
 	@PostMapping("comment")
@@ -113,10 +113,6 @@ public class FreeboardController {
 		model.addAttribute("pageNo", pageNo);
 		return "redirect:detail";
 	}
-	
-	
-	
-	
 	@Transactional
 	@GetMapping("comment")  //idx: 댓글 idx , mref:메인글 idx
 	public String delete(int idx,int pageNo,int mref,Model model) {
