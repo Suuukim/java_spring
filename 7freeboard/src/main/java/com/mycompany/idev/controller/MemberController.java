@@ -22,7 +22,7 @@ import com.mycompany.idev.dto.Member;
 
 @Controller
 @RequestMapping(value = "/member")
-@SessionAttributes({"member","url","message"})
+@SessionAttributes({"user"})	//배열로 애트리뷰트이름을 나열할 수 있습니다.
 public class MemberController {
 	private static final Logger logger 
 	= LoggerFactory.getLogger(MemberController.class);
@@ -53,7 +53,7 @@ public class MemberController {
 	}  //회원가입 
 	
 	@GetMapping("/update.do")
-	public String update(@SessionAttribute("member") Member member) {
+	public String update(@SessionAttribute("user") Member member) {
 		//model 객체 저장소에 저장된 것 중 세션애트리뷰트 "member" 데이터 가져오기
 		return "member/MemberUpdate";
 	}
