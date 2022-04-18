@@ -65,3 +65,7 @@ addAttribute 메소드 :  Model 의 동작과 동일
 addFlashAttribute : post mapping 메소드에서 redirect 할때 url에 표시하지 않으면서 데이터를
 		redirect url의 view에 전달
 		-> 글 추가, 글 수정, 글 삭제 후 완료 메시지 전달하는 방법을 활용하였습니다.
+
+
+
+
