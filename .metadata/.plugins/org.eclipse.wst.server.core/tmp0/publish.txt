@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Apr 18 17:03:18 KST 2022
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ITCS\\.m2\\repository\\org\\springframework\\spring-web\\5.0.1.RELEASE\\spring-web-5.0.1.RELEASE.jar=E\:\\dev1228\\sts-bundle\\pivotal-tc-server\\instances\\VMserver00\\wtpwebapps\\6fileupload(1)\\WEB-INF\\lib\\spring-web-5.0.1.RELEASE.jar
+org.eclipse.jst.jee.server\:6fileupload(1)=E\:\\dev1228\\sts-bundle\\pivotal-tc-server\\instances\\VMserver00\\wtpwebapps\\6fileupload(1)

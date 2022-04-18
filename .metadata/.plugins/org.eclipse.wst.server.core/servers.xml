@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" com.springsource.tcserver.asf="false" com.springsource.tcserver.name="VMserver00" configuration-id="/Servers/VMserver00 - VMware tc Server v4.1 at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="VMserver00 - VMware tc Server v4.1 at localhost" name="VMserver00 - VMware tc Server v4.1 at localhost" runtime-id="VMware tc Server v4.1" saveSeparateContextFiles="true" server-type="com.vmware.server.tc.90" server-type-id="com.vmware.server.tc.90" start-timeout="120" stop-timeout="15" testEnvironment="false" timestamp="6">
+    <list key="modules" value0="6fileupload(1)::org.eclipse.jst.jee.server:6fileupload(1)::jst.web::4.0"/>
+  </server>
+</servers>

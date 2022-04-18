@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:4mvc"/>
+  <module moduleId="org.eclipse.jst.jee.server:7freeboard" serverId="VMserver00 - VMware tc Server v4.1 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:6fileupload" serverId="VMware tc Server Developer Edition v4.1"/>
+  <module moduleId="org.eclipse.jst.jee.server:6fileupload(1)" serverId="VMserver00 - VMware tc Server v4.1 at localhost"/>
+</modules>

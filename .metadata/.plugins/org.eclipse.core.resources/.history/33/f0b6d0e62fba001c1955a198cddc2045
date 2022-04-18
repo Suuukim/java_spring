@@ -1,0 +1,33 @@
+package com.koreait.idev.controller;
+
+import java.lang.System.Logger;
+
+import org.slf4j.spi.LoggerFactoryBinder;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.multipart.MultipartFile;
+
+import com.koreait.idev.model.Gallery;
+
+@Controller
+public class GalleryController {
+	private static final Logger ㅣogger
+	= LoggerFactoryBinder.getLogger(GalleryController.class);
+	
+	@GetMapping("gallery")
+	public void view() {
+		
+	}
+	
+	@PostMapping("gallery")
+	public void upload(Gallery vo) {
+		//서버에 전송된 내용 확인 테스트
+		Logger.info("title:" + vo.getTitle());
+		for(MultipartFile f : vo.getPics()) {
+			Logger.info("파일명 : " + f.getOriginalFilename());	//전송받은 파일명
+			logger.info("파일크기 : " + f.getSize());
+		}
+	
+	}
+}

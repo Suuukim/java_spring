@@ -1,0 +1,59 @@
+
+4월 08, 2022 14:25:10.439 NEW SESSION
+4월 08, 2022 14:25:10.439 [6944:10956:0408/142510.411:ERROR:backend_impl.cc(1042)] Critical error found -8
+4월 08, 2022 14:25:12.519 [6944:6936:0408/142512.519:ERROR:device_event_log_impl.cc(214)] [14:25:12.519] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+
+4월 13, 2022 08:42:06.530 NEW SESSION
+4월 13, 2022 08:42:06.530 [31844:36688:0413/084206.524:ERROR:device_event_log_impl.cc(214)] [08:42:06.523] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 13, 2022 08:42:06.534 [31844:36688:0413/084206.529:ERROR:device_event_log_impl.cc(214)] [08:42:06.529] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 13, 2022 08:43:00.906 [38200:35924:0413/084300.906:ERROR:device_event_log_impl.cc(214)] [08:43:00.906] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 13, 2022 08:43:00.917 [38200:35924:0413/084300.913:ERROR:device_event_log_impl.cc(214)] [08:43:00.913] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 13, 2022 09:39:31.954 [37516:38396:0413/093931.954:ERROR:interface_endpoint_client.cc(659)] Message 0 rejected by interface blink.mojom.WidgetHost
+4월 13, 2022 11:58:01.184 [39988:38088:0413/115801.183:ERROR:device_event_log_impl.cc(214)] [11:58:01.183] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 13, 2022 11:58:01.189 [39988:38088:0413/115801.189:ERROR:device_event_log_impl.cc(214)] [11:58:01.189] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 13, 2022 13:20:23.891 [37368:40376:0413/132023.890:ERROR:device_event_log_impl.cc(214)] [13:20:23.890] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 13, 2022 13:20:23.904 [37368:40376:0413/132023.904:ERROR:device_event_log_impl.cc(214)] [13:20:23.904] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 13, 2022 13:24:07.15 [33544:35128:0413/132407.015:ERROR:device_event_log_impl.cc(214)] [13:24:07.013] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 13, 2022 13:24:07.19 [33544:35128:0413/132407.018:ERROR:device_event_log_impl.cc(214)] [13:24:07.018] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 13, 2022 13:27:37.350 [36592:36716:0413/132737.350:ERROR:device_event_log_impl.cc(214)] [13:27:37.350] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 13, 2022 13:27:37.355 [36592:36716:0413/132737.354:ERROR:device_event_log_impl.cc(214)] [13:27:37.355] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+
+4월 15, 2022 09:14:50.590 NEW SESSION
+4월 15, 2022 09:14:50.590 [13092:13140:0415/091450.589:ERROR:device_event_log_impl.cc(214)] [09:14:50.588] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 09:14:50.596 [13092:13140:0415/091450.596:ERROR:device_event_log_impl.cc(214)] [09:14:50.596] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 09:15:33.832 [3264:15052:0415/091533.832:ERROR:device_event_log_impl.cc(214)] [09:15:33.831] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 09:15:33.836 [3264:15052:0415/091533.835:ERROR:device_event_log_impl.cc(214)] [09:15:33.835] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 09:29:12.130 [13620:6148:0415/092912.130:ERROR:device_event_log_impl.cc(214)] [09:29:12.128] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 09:29:12.133 [13620:6148:0415/092912.133:ERROR:device_event_log_impl.cc(214)] [09:29:12.133] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 09:31:01.266 [14604:16452:0415/093101.266:ERROR:device_event_log_impl.cc(214)] [09:31:01.266] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 09:31:01.270 [14604:16452:0415/093101.270:ERROR:device_event_log_impl.cc(214)] [09:31:01.270] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 10:23:26.880 [1484:21716:0415/102326.880:ERROR:device_event_log_impl.cc(214)] [10:23:26.879] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 10:23:26.885 [1484:21716:0415/102326.885:ERROR:device_event_log_impl.cc(214)] [10:23:26.885] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 10:24:12.466 [9128:6884:0415/102412.466:ERROR:device_event_log_impl.cc(214)] [10:24:12.464] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 10:24:12.469 [9128:6884:0415/102412.469:ERROR:device_event_log_impl.cc(214)] [10:24:12.468] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 10:25:12.469 [14928:14832:0415/102512.469:ERROR:device_event_log_impl.cc(214)] [10:25:12.468] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 10:25:12.475 [14928:14832:0415/102512.475:ERROR:device_event_log_impl.cc(214)] [10:25:12.474] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 10:26:03.113 [1772:988:0415/102603.113:ERROR:device_event_log_impl.cc(214)] [10:26:03.112] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 10:26:03.120 [1772:988:0415/102603.120:ERROR:device_event_log_impl.cc(214)] [10:26:03.119] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 10:29:55.327 [14832:7800:0415/102955.326:ERROR:device_event_log_impl.cc(214)] [10:29:55.326] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 10:29:55.337 [14832:7800:0415/102955.336:ERROR:device_event_log_impl.cc(214)] [10:29:55.336] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 10:43:26.522 [2176:10544:0415/104326.522:ERROR:device_event_log_impl.cc(214)] [10:43:26.523] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 10:43:26.528 [2176:10544:0415/104326.528:ERROR:device_event_log_impl.cc(214)] [10:43:26.528] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 11:37:15.925 [17460:17864:0415/113715.925:ERROR:device_event_log_impl.cc(214)] [11:37:15.924] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 11:37:15.932 [17460:17864:0415/113715.931:ERROR:device_event_log_impl.cc(214)] [11:37:15.931] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 11:38:44.731 [23048:22200:0415/113844.730:ERROR:device_event_log_impl.cc(214)] [11:38:44.730] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 11:38:44.735 [23048:22200:0415/113844.735:ERROR:device_event_log_impl.cc(214)] [11:38:44.735] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 11:43:09.140 [16516:15684:0415/114309.140:ERROR:device_event_log_impl.cc(214)] [11:43:09.139] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 11:43:09.144 [16516:15684:0415/114309.143:ERROR:device_event_log_impl.cc(214)] [11:43:09.143] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 13:28:00.203 [3160:23516:0415/132800.203:ERROR:device_event_log_impl.cc(214)] [13:28:00.204] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 13:28:00.208 [3160:23516:0415/132800.208:ERROR:device_event_log_impl.cc(214)] [13:28:00.208] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 15, 2022 13:58:22.354 [11496:23396:0415/135822.354:ERROR:device_event_log_impl.cc(214)] [13:58:22.354] USB: usb_service_win.cc:391 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 15, 2022 13:58:22.361 [11496:23396:0415/135822.361:ERROR:device_event_log_impl.cc(214)] [13:58:22.361] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+
+4월 18, 2022 08:57:44.350 NEW SESSION
+4월 18, 2022 08:57:44.350 [2040:2168:0418/085744.349:ERROR:device_event_log_impl.cc(214)] [08:57:44.350] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+4월 18, 2022 08:57:53.78 [2040:2168:0418/085753.077:ERROR:interface_endpoint_client.cc(659)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 18, 2022 08:58:41.335 [2040:2500:0418/085841.334:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 18, 2022 08:59:08.626 [2040:2168:0418/085908.625:ERROR:interface_endpoint_client.cc(659)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 18, 2022 09:03:14.160 [2040:2168:0418/090314.159:ERROR:interface_endpoint_client.cc(659)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 18, 2022 13:58:41.348 [2040:11988:0418/135841.347:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
