@@ -72,6 +72,12 @@ addAttribute 메소드 : Model 의 동작과 동일
 addFlashAttribute  : post mapping 메소드에서 redirect 할때
 		    url에 표시하지 않으면서 데이터를 redirect url의 view에 전달
 		--> 글 추가,글 수정, 글 삭제 후 완료 메시지 전달하는 방법으로 활용하였습니다.
-test
 
+[[주제3 : 오류처리]]	- 프로젝트 하면서 검색해서 적용해 보세요.
 
+1. web.xml 에서 <error-page> 로 하기 : 404,500 오류 코드에 대해 처리
+
+2. Controller 에서 @ExceptionHandler 으로 특정 Exception 에 대해서 처리하기
+
+//////////////////////////////////////////////////
+마지막 진도 : ajax(비동기통신) -> 자바스크립트, spring REST 서비스
